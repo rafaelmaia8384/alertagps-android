@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_autorizar_gps"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uso do GPS"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Precisamos de sua atorização para usar o GPS do aparelho. Não se preocupe, o consumo da bateria não irá aumentar."
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"/>
+
+        <com.github.angads25.toggle.LabeledSwitch
+            android:id="@+id/toggleButtonGPS"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            app:on="false"
+            app:textOn="Sim"
+            app:textOff="Não"
+            app:colorBorder="#00000000"
+            app:colorOn="@color/colorWhite"
+            app:colorOff="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+</LinearLayout>

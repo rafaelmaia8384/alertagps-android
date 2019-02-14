@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:orderInCategory="0"
+        android:title="Temas do mapa"
+        android:enabled="false"
+        android:checkable="false" />
+    <item
+        android:orderInCategory="1"
+        android:title="Alto contraste"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo" />
+    <item
+        android:orderInCategory="2"
+        android:title="Deserto"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="3"
+        android:title="Essência branca"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="4"
+        android:title="Geleira"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="5"
+        android:title="Meia noite"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="6"
+        android:title="Mundo verde"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="7"
+        android:title="Padrão"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="8"
+        android:title="Redes conectadas"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="9"
+        android:title="Satélite"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="10"
+        android:title="Tons de cinza"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="11"
+        android:title="Vintage"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+    <item
+        android:orderInCategory="12"
+        android:title="Visão noturna"
+        android:titleCondensed="string"
+        android:visible="true"
+        android:onClick="menuMapaEstilo"/>
+</menu>
